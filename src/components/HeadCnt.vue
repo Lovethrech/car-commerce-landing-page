@@ -42,13 +42,13 @@ import HeadCtnText from "@/components/HeadCtnText.vue";
     <div class="ctn">
         <div class="main-ctn">
             <div class="header">
-                <!-- <Header></Header> -->
+                <Header></Header>
             </div>
             <div class="bg-slide">
                 <div class="img-ctn">
                     <div class="img-overlay"></div>
                 </div>
-                <!-- <div class="img-overlay"></div> -->
+                <div class="img-overlay"></div>
             </div>
             <!-- <HeadCtnText></HeadCtnText> -->
         </div>
