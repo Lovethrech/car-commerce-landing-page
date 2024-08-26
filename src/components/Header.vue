@@ -4,7 +4,7 @@ import Nav from "@/components/Nav.vue";
 
 <style scoped>
 .ctn{
-    background:hsla(0, 0%, 0%, 0.623);
+    background:transparent;
     position:relative;
     padding: 1vh 5vw;
 }

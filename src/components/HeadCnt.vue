@@ -1,5 +1,6 @@
 <script setup>
 import Header from "@/components/Header.vue";
+import HrS from "@/components/HrS.vue";
 import HeadCtnText from "@/components/HeadCtnText.vue";
 </script>
 
@@ -20,21 +21,7 @@ import HeadCtnText from "@/components/HeadCtnText.vue";
     min-height:40vh;
     height: 80vh;
 }
-.img-ctn{
-    position:;
-    width:100%;
-    height:100%;
-    background: url("/erik.jpg") top/100% auto no-repeat;
-}
-.img-overlay{
-    position:absolute;
-    top:0;
-    width:100%;
-    min-height:40vh;
-    height: 80vh;
-    z-index:2;
-    background-color: rgba(0, 0, 0, 0.253);
-}
+
 </style>
 
 
@@ -44,12 +31,13 @@ import HeadCtnText from "@/components/HeadCtnText.vue";
             <div class="header">
                 <Header></Header>
             </div>
-            <div class="bg-slide">
+            <HrS></HrS>
+            <!-- <div class="bg-slide">
                 <div class="img-ctn">
                     <div class="img-overlay"></div>
                 </div>
                 <div class="img-overlay"></div>
-            </div>
+            </div> -->
             <!-- <HeadCtnText></HeadCtnText> -->
         </div>
     </div>
