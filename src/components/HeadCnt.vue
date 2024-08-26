@@ -1,44 +1,26 @@
 <script setup>
 import Header from "@/components/Header.vue";
 import HrS from "@/components/HrS.vue";
-import HeadCtnText from "@/components/HeadCtnText.vue";
+import LandingMainSection from "@/components/LandingMainSection.vue";
 </script>
-
 
 <style scoped>
 .ctn,
-.main-ctn,
-.header,
-.bg-slide{
+.header{
     width:100%;
     height:100%;
 }
-.img-ctn img{
-    width:fit-content;
+.main-ctn{
+    height:80vh;
 }
-.bg-slide{
-    width:100%;
-    min-height:40vh;
-    height: 80vh;
-}
-
 </style>
-
 
 <template>
     <div class="ctn">
+        <Header class="header"></Header>
+        <HrS></HrS>
         <div class="main-ctn">
-            <div class="header">
-                <Header></Header>
-            </div>
-            <HrS></HrS>
-            <!-- <div class="bg-slide">
-                <div class="img-ctn">
-                    <div class="img-overlay"></div>
-                </div>
-                <div class="img-overlay"></div>
-            </div> -->
-            <!-- <HeadCtnText></HeadCtnText> -->
+            <LandingMainSection></LandingMainSection>
         </div>
     </div>
 </template>
