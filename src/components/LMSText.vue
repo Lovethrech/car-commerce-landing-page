@@ -1,7 +1,6 @@
 <style scoped>
 .ctn{
-    height:100vh;
-    margin:0 0 0 4vw;
+    margin:0 40vw 0 4vw;
     display:flex;
     justify-content: center;
     place-items:center;
