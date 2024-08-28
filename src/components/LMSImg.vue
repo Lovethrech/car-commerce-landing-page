@@ -1,3 +1,7 @@
+<script setup>
+import { ref } from "vue";
+</script>
+
 <style scoped>
 .ctn,
 .ctn img{
@@ -17,11 +21,17 @@
     transform-origin: 60% 50%;
     transition:all .2s;
 }
+.icon{
+    font-size:20px;
+}
 </style>
 
 <template>
     <div class="ctn">
         <img src="/pex.jpg" alt="">
-        <!-- <i class='bx bx-chevrons-left bx-fade-left' ></i> -->
+        <div class="icon" :style="{display: imgIconDisplay}">
+            <i class='bx bx-chevrons-left bx-fade-left' ></i>
+        </div> 
+        
     </div>
 </template>
