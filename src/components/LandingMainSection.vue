@@ -1,5 +1,6 @@
 <script setup>
 import LMSText from "@/components/LMSText.vue";
+import LMSImg from "@/components/LMSImg.vue";
 </script>
 
 <style scoped>
@@ -16,7 +17,6 @@ import LMSText from "@/components/LMSText.vue";
 }
 .main-ctn{
     display:flex;
-    background: url("/pex.jpg") right/600px no-repeat;
 }
 </style>
 
@@ -24,6 +24,7 @@ import LMSText from "@/components/LMSText.vue";
     <div class="ctn">
         <div class="main-ctn">
             <LMSText></LMSText>
+            <LMSImg></LMSImg>
         </div>
     </div>
 </template>
