@@ -13,7 +13,7 @@
 .ctn img:hover{
     cursor:pointer;
     box-shadow: 0px 0px 8px 10px #2e2a2aa1;
-    transform:rotate(20deg);
+    margin-right:10vw;
     transform-origin: 60% 50%;
     transition:all .2s;
 }
@@ -22,5 +22,6 @@
 <template>
     <div class="ctn">
         <img src="/pex.jpg" alt="">
+        <!-- <i class='bx bx-chevrons-left bx-fade-left' ></i> -->
     </div>
 </template>
