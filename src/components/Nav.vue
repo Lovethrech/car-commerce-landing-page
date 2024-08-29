@@ -11,7 +11,6 @@ ul{
 }
 .list{
     margin: auto 0;
-    text-transform: capitalize;
 }
 .link-list{
     color: rgb(255, 254, 254);
@@ -19,7 +18,7 @@ ul{
 }
 .link-list:hover{
     cursor:pointer;
-    color:hsl(0, 0%, 0%);
+    color:hsl(0, 13%, 55%);
 }
 .list:last-child{
     background-color: white;
